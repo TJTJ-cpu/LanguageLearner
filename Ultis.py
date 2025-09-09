@@ -1,5 +1,6 @@
 import random
 import keyboard
+import os
 
 
 def RandomWord(lst):
@@ -26,3 +27,4 @@ def MyPrint(lst):
     keyboard.wait('space')
     print(lst[3])
     print(20 * '-')
+    os.system('cls')
