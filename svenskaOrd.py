@@ -347,5 +347,101 @@ swedish_words = {
         'plural': 'skolor',
         'definite_singular': 'skolan',
         'definite_plural': 'skolorna'
+    },
+    'bicycle': {
+        'singular': 'en cykel',
+        'plural': 'cyklar',
+        'definite_singular': 'cykeln',
+        'definite_plural': 'cyklarna'
+    },
+    'mug': {
+        'singular': 'en mugg',
+        'plural': 'muggar',
+        'definite_singular': 'muggen',
+        'definite_plural': 'muggarna'
+    },
+    'fridge': {
+        'singular': 'ett kylskåp',
+        'plural': 'kylskåp',
+        'definite_singular': 'kylskåpet',
+        'definite_plural': 'kylskåpen'
+    },
+    'lamp': {
+        'singular': 'en lampa',
+        'plural': 'lampor',
+        'definite_singular': 'lampan',
+        'definite_plural': 'lamporna'
+    },
+    'road': {
+        'singular': 'en väg',
+        'plural': 'vägar',
+        'definite_singular': 'vägen',
+        'definite_plural': 'vägarna'
+    },
+    'church': {
+        'singular': 'en kyrka',
+        'plural': 'kyrkor',
+        'definite_singular': 'kyrkan',
+        'definite_plural': 'kyrkorna'
+    },
+    'boat': {
+        'singular': 'en båt',
+        'plural': 'båtar',
+        'definite_singular': 'båten',
+        'definite_plural': 'båtarna'
+    },
+    'wall': {
+        'singular': 'en vägg',
+        'plural': 'väggar',
+        'definite_singular': 'väggen',
+        'definite_plural': 'väggarna'
+    },
+    'painting': {
+        'singular': 'en målning',
+        'plural': 'målningar',
+        'definite_singular': 'målningen',
+        'definite_plural': 'målningarna'
+    },
+    'store': {
+        'singular': 'en affär',
+        'plural': 'affärer',
+        'definite_singular': 'affären',
+        'definite_plural': 'affärerna'
+    },
+    'apartment': {
+        'singular': 'en lägenhet',
+        'plural': 'lägenheter',
+        'definite_singular': 'lägenheten',
+        'definite_plural': 'lägenheterna'
+    },
+    'bank': {
+        'singular': 'en bank',
+        'plural': 'banker',
+        'definite_singular': 'banken',
+        'definite_plural': 'bankerna'
+    },
+    'movie': {
+        'singular': 'en film',
+        'plural': 'filmer',
+        'definite_singular': 'filmen',
+        'definite_plural': 'filmerna'
+    },
+    'place': {
+        'singular': 'en plats',
+        'plural': 'platser',
+        'definite_singular': 'platsen',
+        'definite_plural': 'platserna'
+    },
+    'bed': {
+        'singular': 'en säng',
+        'plural': 'sängar',
+        'definite_singular': 'sängen',
+        'definite_plural': 'sängarna'
+    },
+    'member': {
+        'singular': 'en medlem',
+        'plural': 'medlemmar',
+        'definite_singular': 'medlemmen',
+        'definite_plural': 'medlemmarna'
     }
 }
