@@ -27,4 +27,7 @@ def MyPrint(lst):
     keyboard.wait('space')
     print(lst[3])
     print(20 * '-')
+    keyboard.wait('space')
     os.system('cls')
+
+

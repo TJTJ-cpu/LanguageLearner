@@ -98,7 +98,7 @@ swedish_words = {
     'knee': {
         'singular': 'ett knä',
         'plural': 'knän',
-        'definite': 'knäet'
+        'definite': 'knäna'
     },
     'kid': {
         'singular': 'ett barn',
@@ -174,11 +174,6 @@ swedish_words = {
         'singular': 'en mus',
         'plural': 'möss',
         'definite': 'musen'
-    },
-    'laptop': {
-        'singular': 'en laptop',
-        'plural': 'laptops',
-        'definite': 'laptopen'
     },
     'computer': {
         'singular': 'en dator',
