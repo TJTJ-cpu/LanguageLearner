@@ -9,23 +9,28 @@ def RandomWord(lst):
     englishWord = random.choice(list(lst))
     singular = lst[englishWord]['singular']
     plural = lst[englishWord]['plural']
-    definite = lst[englishWord]['definite']
+    definiteSingular = lst[englishWord]['definite_singular']
+    definitePlural = lst[englishWord]['definite_plural']
     del lst[englishWord]
-    return englishWord, singular, plural, definite
+    return englishWord, singular, plural, definiteSingular, definitePlural
 
 
 def MyPrint(lst):
+    os.system('cls')
     print(20 * '-')
     print(f'English Word: {lst[0]}')
-    print(f'Svenska Singular: ', end='', flush=True)
+    print(f'Singular: ', end='', flush=True)
     keyboard.wait('space')
     print(lst[1])
-    print(f'Svenska Plural: ', end='', flush=True)
+    print(f'Plural: ', end='', flush=True)
     keyboard.wait('space')
     print(lst[2])
-    print(f'Svenska Definite: ', end='', flush=True)
+    print(f'Definite Singular: ', end='', flush=True)
     keyboard.wait('space')
     print(lst[3])
+    print(f'Definite Plural: ', end='', flush=True)
+    keyboard.wait('space')
+    print(lst[4])
     print(20 * '-')
     keyboard.wait('space')
     os.system('cls')

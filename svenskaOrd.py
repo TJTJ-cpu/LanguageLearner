@@ -1,290 +1,351 @@
-
 swedish_words = {
     'pen': {
         'singular': 'en penna',
         'plural': 'pennor',
-        'definite': 'pennan'
+        'definite_singular': 'pennan',
+        'definite_plural': 'pennorna'
     },
     'clock': {
         'singular': 'en klocka',
         'plural': 'klockor',
-        'definite': 'klockan'
+        'definite_singular': 'klockan',
+        'definite_plural': 'klockorna'
     },
     'bag': {
         'singular': 'en väska',
         'plural': 'väskor',
-        'definite': 'väskan'
+        'definite_singular': 'väskan',
+        'definite_plural': 'väskorna'
     },
     'bottle': {
         'singular': 'en flaska',
         'plural': 'flaskor',
-        'definite': 'flaskan'
+        'definite_singular': 'flaskan',
+        'definite_plural': 'flaskorna'
     },
     'cap': {
         'singular': 'en mössa',
         'plural': 'mössor',
-        'definite': 'mössan'
+        'definite_singular': 'mössan',
+        'definite_plural': 'mössorna'
     },
     'chair': {
         'singular': 'en stol',
         'plural': 'stolar',
-        'definite': 'stolen'
+        'definite_singular': 'stolen',
+        'definite_plural': 'stolarna'
     },
     'door': {
         'singular': 'en dörr',
         'plural': 'dörrar',
-        'definite': 'dörren'
+        'definite_singular': 'dörren',
+        'definite_plural': 'dörrarna'
     },
     'day': {
         'singular': 'en dag',
         'plural': 'dagar',
-        'definite': 'dagen'
+        'definite_singular': 'dagen',
+        'definite_plural': 'dagarna'
     },
     'comb': {
         'singular': 'en kam',
         'plural': 'kammar',
-        'definite': 'kammen'
+        'definite_singular': 'kammen',
+        'definite_plural': 'kammarna'
     },
     'key': {
         'singular': 'en nyckel',
         'plural': 'nycklar',
-        'definite': 'nyckeln'
+        'definite_singular': 'nyckeln',
+        'definite_plural': 'nycklarna'
     },
     'boy': {
         'singular': 'en pojke',
         'plural': 'pojkar',
-        'definite': 'pojken'
+        'definite_singular': 'pojken',
+        'definite_plural': 'pojkarna'
     },
     'mobile': {
         'singular': 'en mobil',
         'plural': 'mobiler',
-        'definite': 'mobilen'
+        'definite_singular': 'mobilen',
+        'definite_plural': 'mobilerna'
     },
     'restaurant': {
         'singular': 'en restaurang',
         'plural': 'restauranger',
-        'definite': 'restaurangen'
+        'definite_singular': 'restaurangen',
+        'definite_plural': 'restaurangerna'
     },
     'banana': {
         'singular': 'en banan',
         'plural': 'bananer',
-        'definite': 'bananen'
+        'definite_singular': 'bananen',
+        'definite_plural': 'bananerna'
     },
     'tomato': {
         'singular': 'en tomat',
         'plural': 'tomater',
-        'definite': 'tomaten'
+        'definite_singular': 'tomaten',
+        'definite_plural': 'tomaterna'
     },
     'vase': {
         'singular': 'en vas',
         'plural': 'vaser',
-        'definite': 'vasen'
+        'definite_singular': 'vasen',
+        'definite_plural': 'vaserna'
     },
     'apple': {
         'singular': 'ett äpple',
         'plural': 'äpplen',
-        'definite': 'äpplet'
+        'definite_singular': 'äpplet',
+        'definite_plural': 'äpplena'
     },
     'eraser': {
         'singular': 'ett suddgummi',
         'plural': 'suddgummin',
-        'definite': 'suddgummit'
+        'definite_singular': 'suddgummit',
+        'definite_plural': 'suddgummina'
     },
     'shampoo': {
         'singular': 'ett schampo',
         'plural': 'schampon',
-        'definite': 'schampot'
+        'definite_singular': 'schampot',
+        'definite_plural': 'schampona'
     },
     'knee': {
         'singular': 'ett knä',
         'plural': 'knän',
-        'definite': 'knäna'
+        'definite_singular': 'knäet',
+        'definite_plural': 'knäna'
     },
     'kid': {
         'singular': 'ett barn',
         'plural': 'barn',
-        'definite': 'barnet'
+        'definite_singular': 'barnet',
+        'definite_plural': 'barnen'
     },
     'paper': {
         'singular': 'ett papper',
         'plural': 'papper',
-        'definite': 'pappret'
+        'definite_singular': 'pappret',
+        'definite_plural': 'papperna'
     },
     'word': {
         'singular': 'ett ord',
         'plural': 'ord',
-        'definite': 'ordet'
+        'definite_singular': 'ordet',
+        'definite_plural': 'orden'
     },
     'pencil sharpener': {
         'singular': 'en pennvässare',
         'plural': 'pennvässare',
-        'definite': 'pennvässaren'
+        'definite_singular': 'pennvässaren',
+        'definite_plural': 'pennvässarna'
     },
     'book': {
         'singular': 'en bok',
         'plural': 'böcker',
-        'definite': 'boken'
+        'definite_singular': 'boken',
+        'definite_plural': 'böckerna'
     },
     'daughter': {
         'singular': 'en dotter',
         'plural': 'döttrar',
-        'definite': 'dottern'
+        'definite_singular': 'dottern',
+        'definite_plural': 'döttrarna'
     },
     'son': {
         'singular': 'en son',
         'plural': 'söner',
-        'definite': 'sonen'
+        'definite_singular': 'sonen',
+        'definite_plural': 'sönerna'
     },
     'tooth': {
         'singular': 'en tand',
         'plural': 'tänder',
-        'definite': 'tanden'
+        'definite_singular': 'tanden',
+        'definite_plural': 'tänderna'
     },
     'country': {
         'singular': 'ett land',
         'plural': 'länder',
-        'definite': 'landet'
+        'definite_singular': 'landet',
+        'definite_plural': 'länderna'
     },
     'deodorant': {
         'singular': 'en deodorant',
         'plural': 'deodoranter',
-        'definite': 'deodoranten'
+        'definite_singular': 'deodoranten',
+        'definite_plural': 'deodoranterna'
     },
     'brush': {
         'singular': 'en borste',
         'plural': 'borstar',
-        'definite': 'borsten'
+        'definite_singular': 'borsten',
+        'definite_plural': 'borstarna'
     },
     'water bottle': {
         'singular': 'en vattenflaska',
         'plural': 'vattenflaskor',
-        'definite': 'vattenflaskan'
+        'definite_singular': 'vattenflaskan',
+        'definite_plural': 'vattenflaskorna'
     },
     'window': {
         'singular': 'ett fönster',
         'plural': 'fönster',
-        'definite': 'fönstret'
+        'definite_singular': 'fönstret',
+        'definite_plural': 'fönstren'
     },
     'table': {
         'singular': 'ett bord',
         'plural': 'bord',
-        'definite': 'bordet'
+        'definite_singular': 'bordet',
+        'definite_plural': 'borden'
     },
     'mouse': {
         'singular': 'en mus',
         'plural': 'möss',
-        'definite': 'musen'
+        'definite_singular': 'musen',
+        'definite_plural': 'mössen'
+    },
+    'laptop': {
+        'singular': 'en laptop',
+        'plural': 'laptops',
+        'definite_singular': 'laptopen',
+        'definite_plural': 'laptoparna'
     },
     'computer': {
         'singular': 'en dator',
         'plural': 'datorer',
-        'definite': 'datorn'
+        'definite_singular': 'datorn',
+        'definite_plural': 'datorerna'
     },
     'basketball': {
         'singular': 'en basketboll',
         'plural': 'basketbollar',
-        'definite': 'basketbollen'
+        'definite_singular': 'basketbollen',
+        'definite_plural': 'basketbollarna'
     },
     'house': {
         'singular': 'ett hus',
         'plural': 'hus',
-        'definite': 'huset'
+        'definite_singular': 'huset',
+        'definite_plural': 'husen'
     },
     'car': {
         'singular': 'en bil',
         'plural': 'bilar',
-        'definite': 'bilen'
+        'definite_singular': 'bilen',
+        'definite_plural': 'bilarna'
     },
     'city': {
         'singular': 'en stad',
         'plural': 'städer',
-        'definite': 'staden'
+        'definite_singular': 'staden',
+        'definite_plural': 'städerna'
     },
     'street': {
         'singular': 'en gata',
         'plural': 'gator',
-        'definite': 'gatan'
+        'definite_singular': 'gatan',
+        'definite_plural': 'gatorna'
     },
     'friend': {
         'singular': 'en vän',
         'plural': 'vänner',
-        'definite': 'vännen'
+        'definite_singular': 'vännen',
+        'definite_plural': 'vännerna'
     },
     'family': {
         'singular': 'en familj',
         'plural': 'familjer',
-        'definite': 'familjen'
+        'definite_singular': 'familjen',
+        'definite_plural': 'familjerna'
     },
     'dog': {
         'singular': 'en hund',
         'plural': 'hundar',
-        'definite': 'hunden'
+        'definite_singular': 'hunden',
+        'definite_plural': 'hundarna'
     },
     'cat': {
         'singular': 'en katt',
         'plural': 'katter',
-        'definite': 'katten'
+        'definite_singular': 'katten',
+        'definite_plural': 'katterna'
     },
     'kitchen': {
         'singular': 'ett kök',
         'plural': 'kök',
-        'definite': 'köket'
+        'definite_singular': 'köket',
+        'definite_plural': 'köken'
     },
     'bedroom': {
         'singular': 'ett sovrum',
         'plural': 'sovrum',
-        'definite': 'sovrummet'
+        'definite_singular': 'sovrummet',
+        'definite_plural': 'sovrummen'
     },
     'bathroom': {
         'singular': 'ett badrum',
         'plural': 'badrum',
-        'definite': 'badrummet'
+        'definite_singular': 'badrummet',
+        'definite_plural': 'badrummen'
     },
     'bread': {
         'singular': 'ett bröd',
         'plural': 'bröd',
-        'definite': 'brödet'
+        'definite_singular': 'brödet',
+        'definite_plural': 'bröden'
     },
     'phone': {
         'singular': 'en telefon',
         'plural': 'telefoner',
-        'definite': 'telefonen'
+        'definite_singular': 'telefonen',
+        'definite_plural': 'telefonerna'
     },
     'ticket': {
         'singular': 'en biljett',
         'plural': 'biljetter',
-        'definite': 'biljetten'
+        'definite_singular': 'biljetten',
+        'definite_plural': 'biljetterna'
     },
     'bus': {
         'singular': 'en buss',
         'plural': 'bussar',
-        'definite': 'bussen'
+        'definite_singular': 'bussen',
+        'definite_plural': 'bussarna'
     },
     'train': {
+
         'singular': 'ett tåg',
         'plural': 'tåg',
-        'definite': 'tåget'
+        'definite_singular': 'tåget',
+        'definite_plural': 'tågen'
     },
     'shirt': {
         'singular': 'en tröja',
         'plural': 'tröjor',
-        'definite': 'tröjan'
+        'definite_singular': 'tröjan',
+        'definite_plural': 'tröjorna'
     },
     'shoe': {
         'singular': 'en sko',
         'plural': 'skor',
-        'definite': 'skon'
+        'definite_singular': 'skon',
+        'definite_plural': 'skorna'
     },
     'teacher': {
         'singular': 'en lärare',
         'plural': 'lärare',
-        'definite': 'läraren'
+        'definite_singular': 'läraren',
+        'definite_plural': 'lärarna'
     },
     'school': {
         'singular': 'en skola',
         'plural': 'skolor',
-        'definite': 'skolan'
+        'definite_singular': 'skolan',
+        'definite_plural': 'skolorna'
     }
 }
-
-
