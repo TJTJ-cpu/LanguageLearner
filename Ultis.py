@@ -1,4 +1,5 @@
 import random
+import time
 import keyboard
 import os
 
@@ -15,23 +16,41 @@ def RandomWord(lst):
     return englishWord, singular, plural, definiteSingular, definitePlural
 
 
+def DelayPrint(string, bNewLine = False):
+    if bNewLine:
+        print()
+    stringArr = list(string)
+    for i in stringArr:
+        time.sleep(0.015)
+        print(i, end='', flush=True)
+
+def NewLine(bNewLine = False):
+    if bNewLine:
+        print()
+    newLine = 20 * '-'
+    stringArr = list(newLine)
+    for i in stringArr:
+        time.sleep(0.01)
+        print(i, end='', flush=True)
+
+
 def MyPrint(lst):
     os.system('cls')
-    print(20 * '-')
-    print(f'English Word: {lst[0]}')
-    print(f'Singular: ', end='', flush=True)
+    NewLine()
+    DelayPrint(f'English Word: {lst[0]}', True)
+    DelayPrint(f'Singular Obestämd: ', True)
     keyboard.wait('space')
-    print(lst[1])
-    print(f'Plural: ', end='', flush=True)
+    DelayPrint(lst[1])
+    DelayPrint(f'Plural Obestämd: ', True)
     keyboard.wait('space')
-    print(lst[2])
-    print(f'Definite Singular: ', end='', flush=True)
+    DelayPrint(lst[2])
+    DelayPrint(f'Singular Bestämd: ', True)
     keyboard.wait('space')
-    print(lst[3])
-    print(f'Definite Plural: ', end='', flush=True)
+    DelayPrint(lst[3])
+    DelayPrint(f'Plural Bestämd: ', True)
     keyboard.wait('space')
-    print(lst[4])
-    print(20 * '-')
+    DelayPrint(lst[4])
+    NewLine(True)
     keyboard.wait('space')
     os.system('cls')
 
