@@ -443,5 +443,83 @@ swedish_words = {
         'plural': 'medlemmar',
         'definite_singular': 'medlemmen',
         'definite_plural': 'medlemmarna'
+    },
+    "work": {
+        "singular": "ett arbete",
+        "plural": "arbeten",
+        "definite_singular": "arbetet",
+        "definite_plural": "arbetena"
+    },
+    "string": {
+        "singular": "en sträng",
+        "plural": "strängar",
+        "definite_singular": "strängen",
+        "definite_plural": "strängarna"
+    },
+    "goal": {
+        "singular": "ett mål",
+        "plural": "mål",
+        "definite_singular": "målet",
+        "definite_plural": "målen"
+    },
+    "floor": {
+        "singular": "ett golv",
+        "plural": "golv",
+        "definite_singular": "golvet",
+        "definite_plural": "golven"
+    },
+    "meeting": {
+        "singular": "ett möte",
+        "plural": "möten",
+        "definite_singular": "mötet",
+        "definite_plural": "mötena"
+    },
+    "package": {
+        "singular": "ett paket",
+        "plural": "paket",
+        "definite_singular": "paketet",
+        "definite_plural": "paketen"
+    },
+    "schedule": {
+        "singular": "ett schema",
+        "plural": "scheman",
+        "definite_singular": "schemat",
+        "definite_plural": "schemana"
+    },
+    "problem": {
+        "singular": "ett problem",
+        "plural": "problem",
+        "definite_singular": "problemet",
+        "definite_plural": "problemen"
+    },
+    "interest": {
+        "singular": "ett intresse",
+        "plural": "intressen",
+        "definite_singular": "intresset",
+        "definite_plural": "intressena"
+    },
+    "piano": {
+        "singular": "ett piano",
+        "plural": "pianon",
+        "definite_singular": "pianot",
+        "definite_plural": "pianona"
+    },
+    "tree": {
+        "singular": "ett träd",
+        "plural": "träd",
+        "definite_singular": "trädet",
+        "definite_plural": "träden"
+    },
+    "answer": {
+        "singular": "ett svar",
+        "plural": "svar",
+        "definite_singular": "svaret",
+        "definite_plural": "svaren"
+    },
+    "witness": {
+        "singular": "ett vittne",
+        "plural": "vittnen",
+        "definite_singular": "vittnet",
+        "definite_plural": "vittnena"
     }
 }

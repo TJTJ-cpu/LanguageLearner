@@ -3,8 +3,14 @@ import Ultis
 
 swedishWords = svenskaOrd.swedish_words
 
+def NormalGrammar(wordList):
+    while len(wordList) > 0:
+        word = Ultis.RandomWord(swedishWords)
+        Ultis.MyPrint(word)
 
-while len(swedishWords) > 0:
-    word = Ultis.RandomWord(swedishWords)
-    Ultis.MyPrint(word)
+def Main():
+    NormalGrammar(swedishWords)
 
+
+
+Main()
