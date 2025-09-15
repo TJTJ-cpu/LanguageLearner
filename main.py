@@ -9,6 +9,7 @@ def NormalGrammar(wordList):
         Ultis.MyPrint(word)
 
 def Main():
+    Ultis.Resize()
     NormalGrammar(swedishWords)
 
 

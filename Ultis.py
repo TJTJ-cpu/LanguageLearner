@@ -21,7 +21,7 @@ def DelayPrint(string, bNewLine = False):
         print()
     stringArr = list(string)
     for i in stringArr:
-        time.sleep(0.015)
+        time.sleep(0.013)
         print(i, end='', flush=True)
 
 def NewLine(bNewLine = False):
@@ -33,6 +33,11 @@ def NewLine(bNewLine = False):
         time.sleep(0.01)
         print(i, end='', flush=True)
 
+
+def Resize():
+    keyboard.send('ctrl+0')
+    for _ in range(50):
+        keyboard.send('ctrl+equal')
 
 def MyPrint(lst):
     os.system('cls')
