@@ -521,5 +521,89 @@ swedish_words = {
         "plural": "vittnen",
         "definite_singular": "vittnet",
         "definite_plural": "vittnena"
+    },
+    'receipt': {
+        'singular': 'ett kvitto',
+        'plural': 'kvitton',
+        'definite_singular': 'kvittot',
+        'definite_plural': 'kvittona'
+    },
+    'horse riding': {
+        'singular': 'en ridning',
+        'plural': 'ridningar',
+        'definite_singular': 'ridningen',
+        'definite_plural': 'ridningarna'
+    },
+    'egg': {
+        'singular': 'ett ägg',
+        'plural': 'ägg',
+        'definite_singular': 'ägget',
+        'definite_plural': 'äggen'
+    },
+    'pastry': {
+        'singular': 'en bakelse',
+        'plural': 'bakelser',
+        'definite_singular': 'bakelsen',
+        'definite_plural': 'bakelserna'
+    },
+    'person': {
+        'singular': 'en person',
+        'plural': 'personer',
+        'definite_singular': 'personen',
+        'definite_plural': 'personerna'
+    },
+    'friend': {
+        'singular': 'en vän',
+        'plural': 'vänner',
+        'definite_singular': 'vännen',
+        'definite_plural': 'vännerna'
+    },
+    'baker': {
+        'singular': 'en bagare',
+        'plural': 'bagare',
+        'definite_singular': 'bagaren',
+        'definite_plural': 'bagarna'
+    },
+    'pal': {
+        'singular': 'en kompis',
+        'plural': 'kompisar',
+        'definite_singular': 'kompisen',
+        'definite_plural': 'kompisarna'
+    },
+    'name': {
+        'singular': 'ett namn',
+        'plural': 'namn',
+        'definite_singular': 'namnet',
+        'definite_plural': 'namnen'
+    },
+    'page': {
+        'singular': 'en sida',
+        'plural': 'sidor',
+        'definite_singular': 'sidan',
+        'definite_plural': 'sidorna'
+    },
+    'comics': {
+        'singular': 'en serie',
+        'plural': 'serier',
+        'definite_singular': 'serien',
+        'definite_plural': 'serierna'
+    },
+    'things': {
+        'singular': 'en sak',
+        'plural': 'saker',
+        'definite_singular': 'saken',
+        'definite_plural': 'sakerna'
+    },
+    'sandwich': {
+        'singular': 'en smörgås',
+        'plural': 'smörgåsar',
+        'definite_singular': 'smörgåsen',
+        'definite_plural': 'smörgåsarna'
+    },
+    'lemon': {
+        'singular': 'en citron',
+        'plural': 'citroner',
+        'definite_singular': 'citronen',
+        'definite_plural': 'citronerna'
     }
 }
