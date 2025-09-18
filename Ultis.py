@@ -39,10 +39,15 @@ def Resize():
     for _ in range(50):
         keyboard.send('ctrl+equal')
 
-def MyPrint(lst):
+
+def MyPrint(lst, reviewWords, bIsReview = False):
     os.system('cls')
-    NewLine()
-    DelayPrint(f'English Word: {lst[0]}', True)
+    word = lst[0]
+    if bIsReview:
+        print("------- Review -------")
+    else:
+        NewLine()
+    DelayPrint(f'English Word: {word}', True)
     DelayPrint(f'Singular Obestämd: ', True)
     keyboard.wait('space')
     DelayPrint(lst[1])
@@ -56,7 +61,13 @@ def MyPrint(lst):
     keyboard.wait('space')
     DelayPrint(lst[4])
     NewLine(True)
-    keyboard.wait('space')
-    os.system('cls')
+    while True:
+        if keyboard.is_pressed('m') or keyboard.is_pressed('n') or keyboard.is_pressed('b'):
+            os.system('cls')
+            return
+        elif keyboard.is_pressed('space'):
+            del reviewWords[word]
+            os.system('cls')
+            return
 
 

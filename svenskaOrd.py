@@ -564,12 +564,6 @@ swedish_words = {
         'definite_singular': 'bagaren',
         'definite_plural': 'bagarna'
     },
-    'pal': {
-        'singular': 'en kompis',
-        'plural': 'kompisar',
-        'definite_singular': 'kompisen',
-        'definite_plural': 'kompisarna'
-    },
     'name': {
         'singular': 'ett namn',
         'plural': 'namn',
@@ -605,5 +599,41 @@ swedish_words = {
         'plural': 'citroner',
         'definite_singular': 'citronen',
         'definite_plural': 'citronerna'
+    },
+    'pear': {
+    'singular': 'ett päron',
+    'plural': 'päron',
+    'definite_singular': 'päronet',
+    'definite_plural': 'päronen'
+    },
+    'cookie': {
+        'singular': 'en kaka',
+        'plural': 'kakor',
+        'definite_singular': 'kakan',
+        'definite_plural': 'kakorna'
+    },
+    'bun': {
+        'singular': 'en bulle',
+        'plural': 'bullar',
+        'definite_singular': 'bullen',
+        'definite_plural': 'bullarna'
+    },
+    'mango': {
+        'singular': 'en mango',
+        'plural': 'mangor',
+        'definite_singular': 'mangon',
+        'definite_plural': 'mangorna'
+    },
+    'pizza': {
+        'singular': 'en pizza',
+        'plural': 'pizzor',
+        'definite_singular': 'pizzan',
+        'definite_plural': 'pizzorna'
+    },
+    'grapes': {
+        'singular': 'en vindruva',
+        'plural': 'vindruvor',
+        'definite_singular': 'vindruvan',
+        'definite_plural': 'vindruvorna'
     }
 }
