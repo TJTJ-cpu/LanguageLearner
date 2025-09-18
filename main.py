@@ -2,7 +2,7 @@ import svenskaOrd
 import Ultis
 
 swedishWords = svenskaOrd.swedish_words.copy()
-reviewWords = svenskaOrd.swedish_words.copy()
+reviewWords = svenskaOrd.swedish_words
 
 def NormalGrammar(wordList, bIsReview):
     while len(wordList) > 0:
