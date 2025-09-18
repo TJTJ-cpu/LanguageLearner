@@ -21,7 +21,7 @@ def DelayPrint(string, bNewLine = False):
         print()
     stringArr = list(string)
     for i in stringArr:
-        time.sleep(0.013)
+        time.sleep(0.005)
         print(i, end='', flush=True)
 
 def NewLine(bNewLine = False):
@@ -47,13 +47,13 @@ def MyPrint(lst):
     keyboard.wait('space')
     DelayPrint(lst[1])
     DelayPrint(f'Plural Obestämd: ', True)
-    # keyboard.wait('space')
+    keyboard.wait('space')
     DelayPrint(lst[2])
     DelayPrint(f'Singular Bestämd: ', True)
-    # keyboard.wait('space')
+    keyboard.wait('space')
     DelayPrint(lst[3])
     DelayPrint(f'Plural Bestämd: ', True)
-    # keyboard.wait('space')
+    keyboard.wait('space')
     DelayPrint(lst[4])
     NewLine(True)
     keyboard.wait('space')
